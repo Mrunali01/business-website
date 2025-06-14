@@ -19,14 +19,18 @@ const Services = () => {
                     </div>
                     
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">
-                        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
                             
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
-                                    <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Model - PPD</h2>
+                                    <p className="text-md font-bold">
+                                        OPERATING DATA
+                                        <ul>
+                                            <ls>Pump sizes : 32 to 350mm</ls>
+                                            <ls>Capacity : Up to 1800m</ls>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>
